@@ -1,0 +1,24 @@
+{
+  "name": "torrent-streaming-service",
+  "version": "1.0.0",
+  "description": "A simple torrent streaming service with search capabilities for movies and TV shows.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "torrent",
+    "streaming",
+    "movies",
+    "tv-shows",
+    "webtorrent"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "torrent-stream": "^1.2.1",
+    "webtorrent": "^1.6.5"
+  }
+}
