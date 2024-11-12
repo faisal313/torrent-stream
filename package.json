@@ -2,9 +2,13 @@
   "name": "torrent-streaming-service",
   "version": "1.0.0",
   "description": "A simple torrent streaming service with search capabilities for movies and TV shows.",
-  "main": "server.js",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [
     "torrent",
